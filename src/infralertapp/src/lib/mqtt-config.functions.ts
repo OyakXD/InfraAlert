@@ -11,11 +11,11 @@ export type PublicMqttConfig = {
 
 export const getMqttConfig = createServerFn({ method: "GET" }).handler(async (): Promise<PublicMqttConfig> => {
   return {
-    host: "a84c5bcb1296499392aca7ece8acf090.s1.eu.hivemq.cloud",
-    port: "8884",
-    path: "/mqtt",
-    topic: "infralert/alertas",
-    username: "infralertapp",
-    password: "Infralert1234",
+    host: "",
+    port: "",
+    path: "",
+    topic: "",
+    username: "",
+    password: "",
   };
 });
